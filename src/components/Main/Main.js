@@ -7,7 +7,7 @@ const Main = () => {
     const [experts, setExperts] = useState([]);
 
     useEffect(() => {
-        fetch("https://mocki.io/v1/b56089d1-7365-4201-95ea-88c0ed792136")
+        fetch("https://mocki.io/v1/8460b572-6039-4439-a474-5fca9b6da03a")
             .then((res) => res.json())
             .then((data) => setExperts(data));
     }, []);

@@ -8,11 +8,11 @@
 }
 .header-container h1 {
     margin: 10px 5px;
-    color: lightgrey;
+    color: #fdd8d8;
 }
 .header-container h2 {
     margin: 5px 3px;
-    color: rgb(218, 194, 135);
+    color: rgb(238, 211, 142);
 }
 .header-container h5 {
     margin: 2px;

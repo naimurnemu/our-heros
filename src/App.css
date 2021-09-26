@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url(./images/bg.jpg);
+  background-color: rgb(132, 158, 169);
   background-repeat: no-repeat;
   background-size: cover;
 }
