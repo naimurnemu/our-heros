@@ -9,7 +9,7 @@ const Header = () => {
                 Our weapons are mouse and keyboard. We create warriors in the
                 dream of making ideas come true.
             </h5>
-            <h2>Budget 3 Million for Spacial Application </h2>
+            <h2>Budget <u>$1 Million</u> for Spacial Application </h2>
         </div>
     );
 };

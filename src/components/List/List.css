@@ -1,0 +1,29 @@
+.list-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    height: 70px;
+    color: #000;
+    background-color: rgb(171, 190, 255);
+    border-radius: 15px;
+    margin: 10px;
+}
+.list-img {
+    text-align: center;
+}
+.list-img img {
+    height: 70px;
+    width: 65px;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.list-info {
+    text-align: center;
+    margin: 10px;
+}
+.list-amout,
+.list-name {
+    margin: 0 auto;
+}

@@ -38,10 +38,10 @@
 .card-btn{
     background-color: rgb(92, 159, 236);
     color: snow;
-    padding: 10px 15px;
+    padding: 8px 20px;
     border: none;
     margin: 8px;
-    font-size: 16px;
+    font-size: 15px;
     border-radius: 10px;
-
+    cursor: pointer;
 }

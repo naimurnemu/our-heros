@@ -20,15 +20,12 @@ const Expert = (props) => {
                     Founder of <i>{create}</i>{" "}
                 </h5>
                 <h4>Salary: ${salary}</h4>
-                
-                
             </div>
             <div>
-                <button className="card-btn">Add IN Project</button> 
+                <button onClick={()=>props.handleHire(props.expert)} className="card-btn">
+                    Add IN Project
+                </button>
             </div>
-            
-                
-             
         </div>
     );
 };

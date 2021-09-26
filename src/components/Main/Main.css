@@ -3,6 +3,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    grid-column-gap: 20px;
      
 }
 .expert-container {
@@ -11,5 +12,7 @@
     grid-gap: 15px;
     margin-top: 30px;
     margin-bottom: 50px;
-
+}
+.hire-container{
+    margin-top: 30px;
 }
