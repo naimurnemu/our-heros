@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHandshake } from '@fortawesome/free-solid-svg-icons'
 import "./Expert.css";
 
 const Expert = (props) => {
@@ -23,7 +25,7 @@ const Expert = (props) => {
             </div>
             <div>
                 <button onClick={()=>props.handleHire(props.expert)} className="card-btn">
-                    Add IN Project
+                <FontAwesomeIcon icon={faHandshake} /> Add IN Project
                 </button>
             </div>
         </div>
