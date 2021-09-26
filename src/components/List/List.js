@@ -2,7 +2,10 @@ import React from "react";
 import "./List.css";
 
 const List = (props) => {
+    // destructure
     const { name, image, salary } = props.list;
+
+    // jsx
     return (
         <div className="list-div">
             <div className="list-img">

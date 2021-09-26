@@ -4,8 +4,12 @@ import { faHandshake } from "@fortawesome/free-solid-svg-icons";
 import "./Expert.css";
 
 const Expert = (props) => {
+    // destructuring
     const { name, image, salary, create, expert, age } = props.expert || {};
+
+    // adding jsx
     return (
+        
         <div className="card">
             <div className="card-img">
                 <img src={image} alt="" />
@@ -23,6 +27,7 @@ const Expert = (props) => {
                 </h5>
                 <h4>Salary: ${salary}</h4>
             </div>
+            {/* button for add to cart */}
             <div>
                 <button
                     onClick={() => props.handleHire(props.expert)}

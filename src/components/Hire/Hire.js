@@ -5,15 +5,18 @@ import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import "./Hire.css";
 
 const Hire = (props) => {
+    // destrutureing
     const { hire } = props || {};
     let totalCost = 0;
     hire.forEach((jobholder) => {
         const { salary } = jobholder;
         totalCost = totalCost + parseFloat(salary);
     });
-    // const reloadNow = ()=>{
-    //     window.location.reload()
-    // }onClick={reloadNow}
+    // confirm button reload function
+    const reloadNow = () => {
+        window.location.reload();
+    };
+    // jsx
     return (
         <div className="count-card">
             <h3>Details of Hiring</h3>
@@ -22,7 +25,8 @@ const Hire = (props) => {
                 <List key={list.id} list={list}></List>
             ))}
             <h4>Hired cost: ${totalCost}</h4>
-            <button className="confirm-btn">
+            {/* cofirm button */}
+            <button onClick={reloadNow} className="confirm-btn">
                 <FontAwesomeIcon icon={faCheckCircle} /> Confirm
             </button>
         </div>

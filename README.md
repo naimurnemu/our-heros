@@ -1,5 +1,79 @@
 # Getting Started with Create React App
 
+# Grow Tech Bangladesh
+
+
+# Live-website: https://grow-tech-bd.netlify.app/
+
+
+# Features: 
+ 1. Introductions to our tech country heroes.
+ 2. They are the best teacher in our tech community.
+ 3. In this website use "Add In Project" button for hier them to add their in cart. and "confirm" button use to confirm hired. when clicked in "confirm" button page will reload.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
