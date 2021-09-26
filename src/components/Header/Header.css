@@ -1,0 +1,20 @@
+.header-container {
+    width: 80%;
+    margin: 0px auto;
+    background-color: #d68080d7;
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: 2px solid lightcyan;
+}
+.header-container h1 {
+    margin: 10px 5px;
+    color: lightgrey;
+}
+.header-container h2 {
+    margin: 5px 3px;
+    color: rgb(218, 194, 135);
+}
+.header-container h5 {
+    margin: 2px;
+    color: #3f525e;
+}
