@@ -1,7 +1,7 @@
 import React from "react";
 import List from "../List/List";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import "./Hire.css";
 
 const Hire = (props) => {
@@ -11,19 +11,19 @@ const Hire = (props) => {
         const { salary } = jobholder;
         totalCost = totalCost + parseFloat(salary);
     });
-    const reloadNow = ()=>{
-        window.location.reload()
-    }
+    // const reloadNow = ()=>{
+    //     window.location.reload()
+    // }onClick={reloadNow}
     return (
         <div className="count-card">
             <h3>Details of Hiring</h3>
             <h5>Total Hired person: {hire.length}</h5>
-            {
-                hire.map(list => <List list={list}></List>)
-            }
+            {hire.map((list) => (
+                <List key={list.id} list={list}></List>
+            ))}
             <h4>Hired cost: ${totalCost}</h4>
-            <button onClick={reloadNow} className="confirm-btn">
-            <FontAwesomeIcon icon={faCheckCircle} /> Confirm
+            <button className="confirm-btn">
+                <FontAwesomeIcon icon={faCheckCircle} /> Confirm
             </button>
         </div>
     );

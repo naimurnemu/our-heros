@@ -1,6 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHandshake } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHandshake } from "@fortawesome/free-solid-svg-icons";
 import "./Expert.css";
 
 const Expert = (props) => {
@@ -24,8 +24,11 @@ const Expert = (props) => {
                 <h4>Salary: ${salary}</h4>
             </div>
             <div>
-                <button onClick={()=>props.handleHire(props.expert)} className="card-btn">
-                <FontAwesomeIcon icon={faHandshake} /> Add IN Project
+                <button
+                    onClick={() => props.handleHire(props.expert)}
+                    className="card-btn"
+                >
+                    <FontAwesomeIcon icon={faHandshake} /> Add IN Project
                 </button>
             </div>
         </div>

@@ -23,7 +23,9 @@
     text-align: center;
     margin: 10px;
 }
-.list-amout,
+.list-amout {
+    margin: 0 auto;
+}
 .list-name {
     margin: 0 auto;
 }

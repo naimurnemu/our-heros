@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { useEffect } from "react/cjs/react.development";
+import React, { useEffect, useState } from "react";
 import Expert from "../Expert/Expert";
 import Hire from "../Hire/Hire";
 import "./Main.css";
@@ -9,7 +8,7 @@ const Main = () => {
     const [hire, setHire] = useState([]);
 
     useEffect(() => {
-        fetch("./local_api.JSON")
+        fetch(`./local_api.JSON`)
             .then((res) => res.json())
             .then((data) => setExperts(data));
     }, []);
@@ -32,7 +31,6 @@ const Main = () => {
             </div>
             {/* Hire Now */}
             <div className="hire-container">
-                
                 <Hire hire={hire}></Hire>
             </div>
         </div>

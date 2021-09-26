@@ -1,5 +1,5 @@
 import React from "react";
-import "./List.css"
+import "./List.css";
 
 const List = (props) => {
     const { name, image, salary } = props.list;
@@ -10,7 +10,7 @@ const List = (props) => {
             </div>
             <div className="list-info">
                 <h4 className="list-name">{name}</h4>
-                <h6 className ="list-amout">${salary}</h6>
+                <h6 className="list-amout">${salary}</h6>
             </div>
         </div>
     );
