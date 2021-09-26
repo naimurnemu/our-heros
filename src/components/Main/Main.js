@@ -9,7 +9,7 @@ const Main = () => {
     const [hire, setHire] = useState([]);
 
     useEffect(() => {
-        fetch("https://mocki.io/v1/8460b572-6039-4439-a474-5fca9b6da03a")
+        fetch("./local_api.JSON")
             .then((res) => res.json())
             .then((data) => setExperts(data));
     }, []);
